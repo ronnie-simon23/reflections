@@ -1,0 +1,70 @@
+Question 1:
+How did viewing a diff between two versions of a file
+help you see the bug that was introduced?
+
+Using diff displayed all the lines that were dropped
+in the old version and what was added instead in the
+new version. By directly comparing the old and new
+versions of these lines I was able to find the typo
+that appeared in the version. 
+
+Question 2:
+How could having easy access to the entire history of
+a file make you a more efficient programmer in the 
+long term?
+
+In the long term I would be able to quickly see all the
+changes them on a document in particular who made them 
+and when. If necessary one can easily redo a specific 
+change if that change caused a problem.
+
+Question 3:
+What do you think are the pros and cons of manually 
+choosing when to create a commit, like you do in Git,
+vs having versions automatically saved, like Google 
+Docs does?
+
+Pros of manually creating commits are the control of
+amount of changes done between two versions. Manual 
+creating allows to use logical steps in the creation
+of the document to be used as a checkpoint, thus summarizing changes/additions made for a specific feature. On 
+the other hand, the user is responsible for taking 
+care of creating commits. Automatic version control 
+handles this issue but the automatically created version 
+might be either too different from another, i.e.
+containing too many changes, or too small changes.
+
+Question 4:
+Why do you think some version control systems, like 
+Git, allow saving multiple files in one commit, 
+while others, like Google Docs, treat each file separately?
+
+Git is aimed at managing larger projets usually 
+consisting of multiple files where all files are 
+related. Google Docs on the other hand is aimed at 
+managing smaller projects, i.e. a single document.
+
+Question 5:
+How can you use the commands git log and git diff to 
+view the history of files?
+
+git log gives the list of commits made starting with the 
+most recent one. git diff id1 id2 gives you the
+changes, i.e. which lines deleted and added.
+git log --stat gives information about how many lines 
+deleted and added in each commit.
+
+Question 6:
+How might using version control make you more confident 
+to make changes that could break something?
+
+Since it is possible you restore any older version
+after doing a crucial change that might cause a break of
+the program, there is no risk of irreversibly breaking
+the program.
+
+Question 7:
+Now that you have your workspace set up, what do you want 
+to try using Git for?
+
+For writing a thesis or a publication.
