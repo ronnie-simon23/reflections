@@ -40,3 +40,16 @@ How do the diagrams help you visualize the branch structure?
 Diagrams show all the commits and how they related to former commits.
 The branch structure shown helps to identify at which point
 a new branch was created.
+
+Question 7:
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+All the commits of the two branches will be combined. Git will
+take the origin of the two branches as the reference in order
+to decide which changes from both branches to keep. The label 
+of the currently checked out branch will be kept. After merging
+you will see all the commits sorted by timestamp in the git log
+output. In order to display the changes of commit with respect
+to its parent commit, simply use git show id. The label of the 
+second, merged branch can be deleted: git branch -d label. This
+will only delete the label and not the commits.
