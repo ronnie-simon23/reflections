@@ -33,3 +33,10 @@ keeping your history organized? How would branches help?
 
 Branches allow to persue different routes in the developement
 of the program, for example adding a new experimental feature.
+
+Question 6:
+How do the diagrams help you visualize the branch structure?
+
+Diagrams show all the commits and how they related to former commits.
+The branch structure shown helps to identify at which point
+a new branch was created.
