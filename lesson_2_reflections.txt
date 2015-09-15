@@ -20,3 +20,9 @@ logical step containing changes in two different files, you
 can use the staging area to put all the changes related to 
 the logical step in the two files into one commit, as it is
 recommended.
+
+Question 4:
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can use the staging area to add all the files related to
+complete a logical change are put to one commit.
