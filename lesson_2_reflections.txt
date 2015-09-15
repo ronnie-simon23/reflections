@@ -53,3 +53,10 @@ output. In order to display the changes of commit with respect
 to its parent commit, simply use git show id. The label of the 
 second, merged branch can be deleted: git branch -d label. This
 will only delete the label and not the commits.
+
+Question 8:
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pros are that if the changes in two branches do not effect each other
+it is very fast and efficient to use the automatic merging. If two changes effect each other then one has to manually sort out which change
+should be kept.
